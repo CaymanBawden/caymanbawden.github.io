@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Fancify Shamcify</title>
+<head>
+    <title>Fancify Shamcify</title>
+    <!-- link to your script file here -->
+</head>
+<body>
+    <h1>Fancify my Text</h1>
+    <!-- Text field -->
+    <fieldset>
+        <legend>Text</legend>
+        <textarea id="textInput" rows="4" cols="30"></textarea>
+    </fieldset>
 
-		<!-- link to your script file here -->
-		
-	</head>
+    <!-- Fancify fieldset -->
+    <fieldset>
+        <legend>Fancify</legend>
+        <!-- Button to make text bigger -->
+        <button id="biggerButton">Bigger!</button>
+        <br>
+        <!-- Radio buttons for text style -->
+        <input type="radio" id="fancyRadio" name="textStyle" value="fancy">
+        <label for="fancyRadio">FancyShmancy</label>
+        <br>
+        <input type="radio" id="boringRadio" name="textStyle" value="boring">
+        <label for="boringRadio">BoringBetty</label>
+    </fieldset>
 
-	<body>
-		<h1>Fancify my Text</h1>
-		
-
-		<!-- Your UI controls go here -->
-		
-	</body>
+    <!-- JavaScript to test -->
+    <script>
+        // Test JavaScript code
+        alert('JavaScript is running!');
+    </script>
+</body>
 </html>
